@@ -60,7 +60,7 @@ public class SinusGenerator {
 
         Random random = new Random();
         for (int i = 0; i < capacity; i++) {
-            Float temporaryVariable = (float) Math.sin(Math.PI / 180 * i);
+            float temporaryVariable = (float) Math.sin(Math.PI / 180 * i);
             if (i % 100 == 0) {
                 temporaryVariable = temporaryVariable + random.nextFloat() - (float) 0.5;
             }
