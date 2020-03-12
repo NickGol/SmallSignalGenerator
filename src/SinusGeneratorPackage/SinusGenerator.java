@@ -10,6 +10,7 @@ import java.util.*;
 public class SinusGenerator {
 
     private List<Float> signalRepository;
+    private int distance = 10;
 
     /**
      * Constructs an object with initialized channel buffer.
@@ -22,6 +23,7 @@ public class SinusGenerator {
         if (capacity > 0) {
             this.signalRepository = new LinkedList<Float>();
             initializeSignalRepository(capacity);
+            distance = capacity/20;
         } else {
             throw new IllegalArgumentException("Illegal Capacity: " + capacity);
         }
@@ -70,6 +72,6 @@ public class SinusGenerator {
 
     private void updateSignalRepository() {
 
-        Collections.rotate(signalRepository, -10);
+        Collections.rotate(signalRepository, -distance);
     }
 }
