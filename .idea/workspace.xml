@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1383965-296e-430e-bb96-d48b0db52a07" name="Default Changelist" comment="">
+    <list default="true" id="c1383965-296e-430e-bb96-d48b0db52a07" name="Default Changelist" comment="Delete library xchart-3.6.1.jar from sources. Add maven config.">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_erichseifert_vectorgraphics2d_VectorGraphics2D_0_13.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_rototor_pdfbox_graphics2d_0_25.xml" afterDir="false" />
@@ -10,8 +10,18 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_2_0_17.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_knowm_xchart_xchart_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_11_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/xchart_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmallSignalGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SmallSignalGenerator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +57,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\SM\SmallSignalGenerator\src" />
       <recent name="C:\IdeaProjects\SM\SmallSignalGenerator" />
     </key>
   </component>
@@ -72,8 +83,11 @@
       </method>
     </configuration>
     <configuration name="StockLineChartApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-13.0.2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="LineChartPackage.StockLineChartApp" />
       <module name="SmallSignalGenerator" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LineChartPackage.*" />
@@ -110,6 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.SinusGenerator" />
+      <item itemvalue="Application.StockLineChartApp" />
+      <item itemvalue="Application.SwingWorkerRealTime" />
+      <item itemvalue="Application.Test" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.StockLineChartApp" />
@@ -214,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584093153706</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add JavaFX version of LineChart">
+      <created>1584111824445</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584111824445</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -222,25 +249,30 @@
     <MESSAGE value="Change SwingWorker" />
     <MESSAGE value="Update .gitIgnore" />
     <MESSAGE value="Delete library xchart-3.6.1.jar from sources. Add maven config." />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete library xchart-3.6.1.jar from sources. Add maven config." />
+    <MESSAGE value="Add JavaFX version of LineChart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JavaFX version of LineChart" />
   </component>
   <component name="WindowStateProjectService">
     <state x="232" y="149" key="#Project_Structure" timestamp="1584099937994">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="232" y="149" key="#Project_Structure/0.0.1280.984@0.0.1280.984" timestamp="1584099937994" />
+    <state x="94" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584118209994">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="94" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584118209994" />
     <state x="445" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1584023904621">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="445" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984@0.0.1280.984" timestamp="1584023904621" />
-    <state x="284" y="85" key="CommitChangelistDialog2" timestamp="1584111715605">
+    <state x="284" y="85" key="CommitChangelistDialog2" timestamp="1584111823381">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="284" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584111715605" />
-    <state x="367" y="290" key="FileChooserDialogImpl" timestamp="1584091584956">
+    <state x="284" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584111823381" />
+    <state x="367" y="290" key="FileChooserDialogImpl" timestamp="1584118180487">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="367" y="290" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1584091584956" />
+    <state x="367" y="290" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1584118180487" />
     <state x="488" y="384" width="429" height="215" key="Github.ShareDialog" timestamp="1584040774844">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -249,50 +281,50 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="402" y="196" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1584040831399" />
-    <state width="1236" height="259" key="GridCell.Tab.0.bottom" timestamp="1584097719728">
+    <state width="1236" height="259" key="GridCell.Tab.0.bottom" timestamp="1584118478795">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="259" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584097719728" />
-    <state width="1236" height="259" key="GridCell.Tab.0.center" timestamp="1584097719728">
+    <state width="1236" height="259" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584118478795" />
+    <state width="1236" height="259" key="GridCell.Tab.0.center" timestamp="1584118478794">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="259" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584097719728" />
-    <state width="1236" height="259" key="GridCell.Tab.0.left" timestamp="1584097719727">
+    <state width="1236" height="259" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584118478794" />
+    <state width="1236" height="259" key="GridCell.Tab.0.left" timestamp="1584118478794">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="259" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584097719727" />
-    <state width="1236" height="259" key="GridCell.Tab.0.right" timestamp="1584097719728">
+    <state width="1236" height="259" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584118478794" />
+    <state width="1236" height="259" key="GridCell.Tab.0.right" timestamp="1584118478795">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="259" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584097719728" />
-    <state width="1236" height="320" key="GridCell.Tab.1.bottom" timestamp="1584091587747">
+    <state width="1236" height="259" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584118478795" />
+    <state width="1236" height="320" key="GridCell.Tab.1.bottom" timestamp="1584115820865">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584091587747" />
-    <state width="1236" height="320" key="GridCell.Tab.1.center" timestamp="1584091587747">
+    <state width="1236" height="320" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584115820865" />
+    <state width="1236" height="320" key="GridCell.Tab.1.center" timestamp="1584115820865">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1584091587747" />
-    <state width="1236" height="320" key="GridCell.Tab.1.left" timestamp="1584091587747">
+    <state width="1236" height="320" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1584115820865" />
+    <state width="1236" height="320" key="GridCell.Tab.1.left" timestamp="1584115820865">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1584091587747" />
-    <state width="1236" height="320" key="GridCell.Tab.1.right" timestamp="1584091587747">
+    <state width="1236" height="320" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1584115820865" />
+    <state width="1236" height="320" key="GridCell.Tab.1.right" timestamp="1584115820865">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1584091587747" />
-    <state x="141" y="123" key="SettingsEditor" timestamp="1584091820842">
+    <state width="1236" height="320" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1584115820865" />
+    <state x="141" y="123" key="SettingsEditor" timestamp="1584118197553">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="141" y="123" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584091820842" />
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584093157536">
+    <state x="141" y="123" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584118197553" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584111833454">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584093157536" />
-    <state x="335" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1584090372801">
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584111833454" />
+    <state x="335" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1584114952750">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="335" y="314" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1584090372801" />
+    <state x="335" y="314" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1584114952750" />
     <state x="296" y="221" key="run.anything.popup" timestamp="1584111572936">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -305,6 +337,16 @@
           <url>file://$PROJECT_DIR$/src/Tests/Test.java</url>
           <line>9</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LineChartPackage/StockLineChartApp.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LineChartPackage/StockLineChartApp.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
