@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1383965-296e-430e-bb96-d48b0db52a07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_erichseifert_vectorgraphics2d_VectorGraphics2D_0_13.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_rototor_pdfbox_graphics2d_0_25.xml" afterDir="false" />
@@ -11,11 +10,8 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_2_0_17.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_knowm_xchart_xchart_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/xchart_3_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmallSignalGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SmallSignalGenerator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xchart-3.6.1.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +28,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1Z24CdzkLT2kYbya6bevukEcYyn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -184,24 +187,32 @@
       <option name="project" value="LOCAL" />
       <updated>1584091223438</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Delete library xchart-3.6.1.jar from sources. Add maven config.">
+      <created>1584092633212</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584092633212</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add sinus computation" />
     <MESSAGE value="Change SwingWorker" />
     <MESSAGE value="Update .gitIgnore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update .gitIgnore" />
+    <MESSAGE value="Delete library xchart-3.6.1.jar from sources. Add maven config." />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete library xchart-3.6.1.jar from sources. Add maven config." />
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1584023904621">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="445" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984@0.0.1280.984" timestamp="1584023904621" />
-    <state x="284" y="85" key="CommitChangelistDialog2" timestamp="1584091223003">
+    <state x="284" y="85" key="CommitChangelistDialog2" timestamp="1584092632575">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="284" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584091223003" />
+    <state x="284" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584092632575" />
     <state x="367" y="290" key="FileChooserDialogImpl" timestamp="1584091584956">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -214,22 +225,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="402" y="196" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1584040831399" />
-    <state width="1236" height="320" key="GridCell.Tab.0.bottom" timestamp="1584091587747">
+    <state width="1236" height="259" key="GridCell.Tab.0.bottom" timestamp="1584092987650">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584091587747" />
-    <state width="1236" height="320" key="GridCell.Tab.0.center" timestamp="1584091587746">
+    <state width="1236" height="259" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584092987650" />
+    <state width="1236" height="259" key="GridCell.Tab.0.center" timestamp="1584092987650">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584091587746" />
-    <state width="1236" height="320" key="GridCell.Tab.0.left" timestamp="1584091587746">
+    <state width="1236" height="259" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584092987650" />
+    <state width="1236" height="259" key="GridCell.Tab.0.left" timestamp="1584092987650">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584091587746" />
-    <state width="1236" height="320" key="GridCell.Tab.0.right" timestamp="1584091587746">
+    <state width="1236" height="259" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584092987650" />
+    <state width="1236" height="259" key="GridCell.Tab.0.right" timestamp="1584092987650">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584091587746" />
+    <state width="1236" height="259" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584092987650" />
     <state width="1236" height="320" key="GridCell.Tab.1.bottom" timestamp="1584091587747">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -250,10 +261,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="141" y="123" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584091820842" />
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584091229109">
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584092640201">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584091229109" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584092640201" />
     <state x="335" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1584090372801">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
