@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1383965-296e-430e-bb96-d48b0db52a07" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinusGeneratorPackage/SinusGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinusGeneratorPackage/SinusGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Swing/SwingWorkerRealTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Swing/SwingWorkerRealTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_erichseifert_vectorgraphics2d_VectorGraphics2D_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_rototor_pdfbox_graphics2d_0_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_fontbox_2_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_2_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_knowm_xchart_xchart_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/xchart_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmallSignalGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SmallSignalGenerator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xchart-3.6.1.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +43,17 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xchart-3.6.1.jar!/" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\SM\SmallSignalGenerator" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.SwingWorkerRealTime">
     <configuration name="SinusGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -152,27 +170,42 @@
       <option name="project" value="LOCAL" />
       <updated>1584047351065</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update .gitIgnore">
+      <created>1584091103710</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584091103710</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update .gitIgnore">
+      <created>1584091223438</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584091223438</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add sinus computation" />
     <MESSAGE value="Change SwingWorker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change SwingWorker" />
+    <MESSAGE value="Update .gitIgnore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update .gitIgnore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1584023904621">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="445" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984@0.0.1280.984" timestamp="1584023904621" />
-    <state x="284" y="85" key="CommitChangelistDialog2" timestamp="1584091148756">
+    <state x="284" y="85" key="CommitChangelistDialog2" timestamp="1584091223003">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="284" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584091148756" />
-    <state x="367" y="290" key="FileChooserDialogImpl" timestamp="1584043390421">
+    <state x="284" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584091223003" />
+    <state x="367" y="290" key="FileChooserDialogImpl" timestamp="1584091584956">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="367" y="290" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1584043390421" />
+    <state x="367" y="290" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1584091584956" />
     <state x="488" y="384" width="429" height="215" key="Github.ShareDialog" timestamp="1584040774844">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -181,46 +214,46 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="402" y="196" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1584040831399" />
-    <state width="1236" height="259" key="GridCell.Tab.0.bottom" timestamp="1584090912156">
+    <state width="1236" height="320" key="GridCell.Tab.0.bottom" timestamp="1584091587747">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="259" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584090912156" />
-    <state width="1236" height="259" key="GridCell.Tab.0.center" timestamp="1584090912156">
+    <state width="1236" height="320" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584091587747" />
+    <state width="1236" height="320" key="GridCell.Tab.0.center" timestamp="1584091587746">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="259" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584090912156" />
-    <state width="1236" height="259" key="GridCell.Tab.0.left" timestamp="1584090912155">
+    <state width="1236" height="320" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584091587746" />
+    <state width="1236" height="320" key="GridCell.Tab.0.left" timestamp="1584091587746">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="259" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584090912155" />
-    <state width="1236" height="259" key="GridCell.Tab.0.right" timestamp="1584090912156">
+    <state width="1236" height="320" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584091587746" />
+    <state width="1236" height="320" key="GridCell.Tab.0.right" timestamp="1584091587746">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="259" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584090912156" />
-    <state width="1236" height="320" key="GridCell.Tab.1.bottom" timestamp="1584090782044">
+    <state width="1236" height="320" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584091587746" />
+    <state width="1236" height="320" key="GridCell.Tab.1.bottom" timestamp="1584091587747">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584090782044" />
-    <state width="1236" height="320" key="GridCell.Tab.1.center" timestamp="1584090782044">
+    <state width="1236" height="320" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584091587747" />
+    <state width="1236" height="320" key="GridCell.Tab.1.center" timestamp="1584091587747">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1584090782044" />
-    <state width="1236" height="320" key="GridCell.Tab.1.left" timestamp="1584090782044">
+    <state width="1236" height="320" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1584091587747" />
+    <state width="1236" height="320" key="GridCell.Tab.1.left" timestamp="1584091587747">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1584090782044" />
-    <state width="1236" height="320" key="GridCell.Tab.1.right" timestamp="1584090782044">
+    <state width="1236" height="320" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1584091587747" />
+    <state width="1236" height="320" key="GridCell.Tab.1.right" timestamp="1584091587747">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1584090782044" />
-    <state x="141" y="123" key="SettingsEditor" timestamp="1584043394510">
+    <state width="1236" height="320" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1584091587747" />
+    <state x="141" y="123" key="SettingsEditor" timestamp="1584091820842">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="141" y="123" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584043394510" />
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584091119747">
+    <state x="141" y="123" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584091820842" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584091229109">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584091119747" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584091229109" />
     <state x="335" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1584090372801">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
