@@ -68,10 +68,13 @@ public class SinusGenerator {
             }
             signalRepository.add(temporaryVariable);
         }
+        signalRepository.set(0, (float)3);
+        signalRepository.set(1, (float)3);
+        signalRepository.set(2, (float)3);
     }
 
     private void updateSignalRepository() {
 
-        Collections.rotate(signalRepository, -distance);
+        Collections.rotate(signalRepository, -10);
     }
 }
