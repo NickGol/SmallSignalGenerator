@@ -78,7 +78,7 @@ public class StockLineChartApp extends Application {
     private double timeInHours = 0;
     private double prevY = 10;
     private double y = 10;
-    private int amountOfPoints =  5000;
+    private int amountOfPoints = 5000;
 
     private SinusGenerator sinusGenerator = new SinusGenerator(amountOfPoints);
 
