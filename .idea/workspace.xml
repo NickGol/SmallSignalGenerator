@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1383965-296e-430e-bb96-d48b0db52a07" name="Default Changelist" comment="Delete library xchart-3.6.1.jar from sources. Add maven config.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_erichseifert_vectorgraphics2d_VectorGraphics2D_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_rototor_pdfbox_graphics2d_0_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_fontbox_2_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_2_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_knowm_xchart_xchart_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_11_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/xchart_3_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c1383965-296e-430e-bb96-d48b0db52a07" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmallSignalGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SmallSignalGenerator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LineChartPackage/StockLineChartApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LineChartPackage/StockLineChartApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584111824445</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Java 13 Version">
+      <created>1584118530219</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584118530219</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -250,7 +239,8 @@
     <MESSAGE value="Update .gitIgnore" />
     <MESSAGE value="Delete library xchart-3.6.1.jar from sources. Add maven config." />
     <MESSAGE value="Add JavaFX version of LineChart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add JavaFX version of LineChart" />
+    <MESSAGE value="Java 13 Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java 13 Version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="232" y="149" key="#Project_Structure" timestamp="1584099937994">
@@ -265,10 +255,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="445" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984@0.0.1280.984" timestamp="1584023904621" />
-    <state x="284" y="85" key="CommitChangelistDialog2" timestamp="1584111823381">
+    <state x="284" y="85" key="CommitChangelistDialog2" timestamp="1584118562297">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="284" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584111823381" />
+    <state x="284" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584118562297" />
     <state x="367" y="290" key="FileChooserDialogImpl" timestamp="1584118180487">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -317,10 +307,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="141" y="123" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584118197553" />
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584111833454">
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584118544965">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584111833454" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584118544965" />
     <state x="335" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1584114952750">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
