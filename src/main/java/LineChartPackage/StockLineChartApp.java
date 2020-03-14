@@ -105,7 +105,7 @@ public class StockLineChartApp extends Application {
         final NumberAxis yAxis = new NumberAxis(-1.5, 1.5, 0.5);
         chart = new LineChart<>(xAxis, yAxis);
         // setup chart
-        chart.getStylesheets().add("LineChartPackage/StockLineChart.css");
+        chart.getStylesheets().add("LineChart/StockLineChart.css");
         chart.setCreateSymbols(false);
         chart.setAnimated(false);
         chart.setLegendVisible(false);

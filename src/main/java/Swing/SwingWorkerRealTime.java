@@ -3,7 +3,6 @@ package Swing;
 import java.util.LinkedList;
 import java.util.List;
 
-import java.util.*;
 import javax.swing.SwingWorker;
 
 import SinusGeneratorPackage.SinusGenerator;

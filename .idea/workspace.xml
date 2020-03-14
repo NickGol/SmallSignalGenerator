@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1383965-296e-430e-bb96-d48b0db52a07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    <list default="true" id="c1383965-296e-430e-bb96-d48b0db52a07" name="Default Changelist" comment="Change project structure&#10;First tests added to try with Travis CI">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmallSignalGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SmallSignalGenerator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LineChartPackage/StockLineChart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/LineChart/StockLineChart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LineChartPackage/StockLineChartApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LineChartPackage/StockLineChartApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SinusGeneratorPackage/SinusGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SinusGeneratorPackage/SinusGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Swing/SwingWorkerRealTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Swing/SwingWorkerRealTime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,31 +49,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\SM\SmallSignalGenerator\src\main\resources\LineChart" />
+      <recent name="C:\IdeaProjects\SM\SmallSignalGenerator\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IdeaProjects\SM\SmallSignalGenerator\src" />
       <recent name="C:\IdeaProjects\SM\SmallSignalGenerator" />
     </key>
   </component>
   <component name="RunManager" selected="Application.StockLineChartApp">
-    <configuration name="SinusGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SinusGeneratorPackage.SinusGenerator" />
-      <module name="SmallSignalGenerator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SinusGeneratorPackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StockLineChartApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-13.0.2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -72,7 +76,7 @@
       <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LineChartPackage.*" />
+          <option name="PATTERN" value="main.java.LineChartPackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,6 +85,19 @@
       </method>
     </configuration>
     <configuration name="SwingWorkerRealTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Swing.SwingWorkerRealTime" />
+      <module name="SmallSignalGenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.Swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwingWorkerRealTime" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Swing.SwingWorkerRealTime" />
       <module name="SmallSignalGenerator" />
       <extension name="coverage">
@@ -93,31 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tests.Test" />
-      <module name="SmallSignalGenerator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.SinusGenerator" />
       <item itemvalue="Application.StockLineChartApp" />
       <item itemvalue="Application.SwingWorkerRealTime" />
-      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.StockLineChartApp" />
         <item itemvalue="Application.SwingWorkerRealTime" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.SinusGenerator" />
+        <item itemvalue="Application.SwingWorkerRealTime" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584118632288</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Try with Travis CI">
+      <created>1584200410661</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1584200410661</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,29 +262,48 @@
     <MESSAGE value="Delete library xchart-3.6.1.jar from sources. Add maven config." />
     <MESSAGE value="Add JavaFX version of LineChart" />
     <MESSAGE value="Java 13 Version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java 13 Version" />
+    <MESSAGE value="Try with Travis CI" />
+    <MESSAGE value="Try with Travis CI&#10;First tests Added" />
+    <MESSAGE value="Change project structure&#10;First tests added to try with Travis CI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change project structure&#10;First tests added to try with Travis CI" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="232" y="149" key="#Project_Structure" timestamp="1584099937994">
+    <state x="232" y="149" key="#Project_Structure" timestamp="1584210491985">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="149" key="#Project_Structure/0.0.1280.984@0.0.1280.984" timestamp="1584099937994" />
-    <state x="94" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584119951368">
+    <state x="232" y="149" key="#Project_Structure/0.0.1280.984@0.0.1280.984" timestamp="1584210491985" />
+    <state x="155" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584213343940">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="94" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584119951368" />
+    <state x="155" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584213343940" />
     <state x="445" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1584023904621">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="445" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984@0.0.1280.984" timestamp="1584023904621" />
-    <state x="284" y="85" key="CommitChangelistDialog2" timestamp="1584118631842">
+    <state x="430" y="334" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584212836205">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="284" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584118631842" />
-    <state x="367" y="290" key="FileChooserDialogImpl" timestamp="1584118180487">
+    <state x="430" y="334" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.984@0.0.1280.984" timestamp="1584212836205" />
+    <state x="373" y="180" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584210431524">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="367" y="290" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1584118180487" />
+    <state x="373" y="180" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.984@0.0.1280.984" timestamp="1584210431524" />
+    <state x="462" y="416" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584210534684">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="462" y="416" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.984@0.0.1280.984" timestamp="1584210534684" />
+    <state x="436" y="350" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584210499790">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="436" y="350" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.984@0.0.1280.984" timestamp="1584210499790" />
+    <state x="177" y="85" key="CommitChangelistDialog2" timestamp="1584213374523">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="177" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584213374523" />
+    <state x="367" y="290" key="FileChooserDialogImpl" timestamp="1584201484387">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="367" y="290" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1584201484387" />
     <state x="488" y="384" width="429" height="215" key="Github.ShareDialog" timestamp="1584040774844">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -285,22 +312,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="402" y="196" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1584040831399" />
-    <state width="1236" height="259" key="GridCell.Tab.0.bottom" timestamp="1584122850471">
+    <state width="1236" height="163" key="GridCell.Tab.0.bottom" timestamp="1584213355495">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="259" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584122850471" />
-    <state width="1236" height="259" key="GridCell.Tab.0.center" timestamp="1584122850471">
+    <state width="1236" height="163" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584213355495" />
+    <state width="1236" height="163" key="GridCell.Tab.0.center" timestamp="1584213355495">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="259" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584122850471" />
-    <state width="1236" height="259" key="GridCell.Tab.0.left" timestamp="1584122850471">
+    <state width="1236" height="163" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584213355495" />
+    <state width="1236" height="163" key="GridCell.Tab.0.left" timestamp="1584213355495">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="259" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584122850471" />
-    <state width="1236" height="259" key="GridCell.Tab.0.right" timestamp="1584122850471">
+    <state width="1236" height="163" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584213355495" />
+    <state width="1236" height="163" key="GridCell.Tab.0.right" timestamp="1584213355495">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="259" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584122850471" />
+    <state width="1236" height="163" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584213355495" />
     <state width="1236" height="320" key="GridCell.Tab.1.bottom" timestamp="1584122850464">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -317,38 +344,33 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1236" height="320" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1584122850463" />
-    <state x="141" y="123" key="SettingsEditor" timestamp="1584118197553">
+    <state x="213" y="131" key="SettingsEditor" timestamp="1584210397471">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="141" y="123" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584118197553" />
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584118633879">
+    <state x="213" y="131" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584210397471" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584200413928">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584118633879" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584200413928" />
     <state x="335" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1584200098297">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="335" y="314" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1584200098297" />
-    <state x="296" y="221" key="run.anything.popup" timestamp="1584111572936">
+    <state x="296" y="221" key="run.anything.popup" timestamp="1584212045245">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="296" y="221" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1584111572936" />
+    <state x="296" y="221" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1584212045245" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tests/Test.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LineChartPackage/StockLineChartApp.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/LineChartPackage/StockLineChartApp.java</url>
           <line>103</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LineChartPackage/StockLineChartApp.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/LineChartPackage/StockLineChartApp.java</url>
           <line>104</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
