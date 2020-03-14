@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="SmallSignalGenerator" target="13" />
+      <module name="SmallSignalGenerator" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
