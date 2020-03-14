@@ -1,6 +1,7 @@
 # https://docs.travis-ci.com/user/languages/java/
 language: java
 jdk: oraclejdk13
+script: mvn test -Dtest=TestSinusGenerator.java
 
 # Improve Build Speed https://dzone.com/articles/travis-ci-tutorial-java-projects
 cache:
