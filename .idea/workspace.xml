@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1383965-296e-430e-bb96-d48b0db52a07" name="Default Changelist" comment="Change project structure&#10;First tests added to try with Travis CI">
+    <list default="true" id="c1383965-296e-430e-bb96-d48b0db52a07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -256,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584214070114</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Change project structure&#10;First tests added to try with Travis CI">
+      <created>1584214884540</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1584214884540</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -276,10 +284,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="232" y="149" key="#Project_Structure/0.0.1280.984@0.0.1280.984" timestamp="1584210491985" />
-    <state x="155" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584213343940">
+    <state x="155" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584215472853">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="155" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584213343940" />
+    <state x="155" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584215472853" />
     <state x="445" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1584023904621">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -300,10 +308,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="436" y="350" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.984@0.0.1280.984" timestamp="1584210499790" />
-    <state x="177" y="85" key="CommitChangelistDialog2" timestamp="1584214834509">
+    <state x="177" y="85" key="CommitChangelistDialog2" timestamp="1584214884014">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="177" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584214834509" />
+    <state x="177" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584214884014" />
     <state x="367" y="290" key="FileChooserDialogImpl" timestamp="1584201484387">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -352,18 +360,18 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="213" y="131" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584210397471" />
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584214071572">
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584214888591">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584214071572" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584214888591" />
     <state x="335" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1584200098297">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="335" y="314" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1584200098297" />
-    <state x="296" y="221" key="run.anything.popup" timestamp="1584212045245">
+    <state x="296" y="221" key="run.anything.popup" timestamp="1584215563103">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="296" y="221" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1584212045245" />
+    <state x="296" y="221" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1584215563103" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

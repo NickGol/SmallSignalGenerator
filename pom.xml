@@ -7,6 +7,7 @@
     <groupId>SmallSignalGenerator_GroupId</groupId>
     <artifactId>SmallSignalGenerator_ArtifactId</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <properties>
         <!--project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,11 +19,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <junit.version>4.12</junit.version>
         <!-- Project name -->
         <project.name>SmallSignalGenerator</project.name>
         <!-- Compiler plugin -->
         <compilerplugin.version>3.7.0</compilerplugin.version>
+        <!-- JUnit -->
+        <junit.version>4.12</junit.version>
     </properties>
 
     <dependencies>
