@@ -13,5 +13,5 @@ notifications:
   email:
     recipients:
       - golod_nick@mail.ru
-    on_success: always # default: change
+    on_success: always # default: changeу
     on_failure: always # default: always
