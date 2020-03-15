@@ -21,7 +21,7 @@ public class SinusGenerator {
     public SinusGenerator(int capacity) {
 
         if (capacity > 0) {
-            this.signalRepositor y = new LinkedList<Float>();
+            this.signalRepository = new LinkedList<Float>();
             initializeSignalRepository(capacity);
             distance = capacity/20;
         } else {
