@@ -52,7 +52,7 @@ import javafx.util.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
-
+//--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml
 /**
  * A simulated stock line chart.
  *
