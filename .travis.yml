@@ -2,7 +2,8 @@
 language: java
 jdk: oraclejdk13
 sudo: false
-script: mvn test
+script:
+  - mvn clean compile verify
 
 
 # Improve Build Speed https://dzone.com/articles/travis-ci-tutorial-java-projects
