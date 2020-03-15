@@ -24,7 +24,6 @@ public class SinusGeneratorTest {
     @Test
     public void checkGetterFunction_2() {
         Float[] firstStep = sinusGenerator.getSignalData(25);
-        SinusGenerator sinusGenerator = new SinusGenerator(0);
         assertEquals(firstStep.length, 25);
     }
 
