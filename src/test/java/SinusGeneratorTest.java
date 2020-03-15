@@ -23,9 +23,9 @@ public class SinusGeneratorTest {
 
     @Test
     public void checkGetterFunction_2() {
-        SinusGenerator sinusGenerator = new SinusGenerator(0);
         Float[] firstStep = sinusGenerator.getSignalData(25);
-        assertEquals(25, 25);
+        SinusGenerator sinusGenerator = new SinusGenerator(0);
+        assertEquals(firstStep.length, 25);
     }
 
     @Test(expected = IllegalArgumentException.class)
@@ -35,7 +35,7 @@ public class SinusGeneratorTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void checkGetterFunctionExceptionNegativeValue() {
-        //Float[] firstStep = sinusGenerator.getSignalData(-1);
+        Float[] firstStep = sinusGenerator.getSignalData(-1);
     }
 
     @Test(expected = IllegalArgumentException.class)
