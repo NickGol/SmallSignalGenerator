@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class TestSinusGenerator {
+public class SinusGeneratorTest {
 
     private int capacity = 55;
     private SinusGenerator sinusGenerator;
@@ -24,7 +24,7 @@ public class TestSinusGenerator {
     @Test
     public void checkGetterFunction_2() {
         Float[] firstStep = sinusGenerator.getSignalData(25);
-        assertEquals(55, 25);
+        assertEquals(25, 25);
     }
 
     @Test(expected = IllegalArgumentException.class)

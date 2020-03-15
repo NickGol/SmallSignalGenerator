@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1383965-296e-430e-bb96-d48b0db52a07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmallSignalGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SmallSignalGenerator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSinusGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SinusGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +43,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\IdeaProjects\SM\SmallSignalGenerator\src\main\resources\LineChart" />
-      <recent name="C:\IdeaProjects\SM\SmallSignalGenerator\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IdeaProjects\SM\SmallSignalGenerator\src" />
       <recent name="C:\IdeaProjects\SM\SmallSignalGenerator" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\SM\SmallSignalGenerator\src\main\resources\LineChart" />
+      <recent name="C:\IdeaProjects\SM\SmallSignalGenerator\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Application.StockLineChartApp">
@@ -291,7 +295,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584224006472</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Change project structure&#10;First tests added to try with Travis CI&#10;Failed test situation">
+      <created>1584224612569</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1584224612569</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Change project structure&#10;First tests added to try with Travis CI&#10;Failed test situation">
+      <created>1584224656060</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1584224656060</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -312,10 +330,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="232" y="149" key="#Project_Structure/0.0.1280.984@0.0.1280.984" timestamp="1584210491985" />
-    <state x="155" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584215472853">
+    <state x="155" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584262094189">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="155" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584215472853" />
+    <state x="155" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584262094189" />
     <state x="445" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1584023904621">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -336,10 +354,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="436" y="350" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.984@0.0.1280.984" timestamp="1584210499790" />
-    <state x="177" y="85" key="CommitChangelistDialog2" timestamp="1584224620491">
+    <state x="177" y="85" key="CommitChangelistDialog2" timestamp="1584224655635">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="177" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584224620491" />
+    <state x="177" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584224655635" />
     <state x="367" y="290" key="FileChooserDialogImpl" timestamp="1584201484387">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -352,22 +370,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="402" y="196" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1584040831399" />
-    <state width="1236" height="163" key="GridCell.Tab.0.bottom" timestamp="1584224630881">
+    <state width="1236" height="163" key="GridCell.Tab.0.bottom" timestamp="1584264861225">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584224630881" />
-    <state width="1236" height="163" key="GridCell.Tab.0.center" timestamp="1584224630881">
+    <state width="1236" height="163" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584264861225" />
+    <state width="1236" height="163" key="GridCell.Tab.0.center" timestamp="1584264861224">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584224630881" />
-    <state width="1236" height="163" key="GridCell.Tab.0.left" timestamp="1584224630881">
+    <state width="1236" height="163" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584264861224" />
+    <state width="1236" height="163" key="GridCell.Tab.0.left" timestamp="1584264861224">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584224630881" />
-    <state width="1236" height="163" key="GridCell.Tab.0.right" timestamp="1584224630881">
+    <state width="1236" height="163" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584264861224" />
+    <state width="1236" height="163" key="GridCell.Tab.0.right" timestamp="1584264861225">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584224630881" />
+    <state width="1236" height="163" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584264861225" />
     <state width="1236" height="320" key="GridCell.Tab.1.bottom" timestamp="1584122850464">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -384,18 +402,18 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1236" height="320" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1584122850463" />
-    <state x="213" y="131" key="SettingsEditor" timestamp="1584210397471">
+    <state x="213" y="131" key="SettingsEditor" timestamp="1584262801307">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="213" y="131" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584210397471" />
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584224008959">
+    <state x="213" y="131" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584262801307" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584224657411">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584224008959" />
-    <state x="335" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1584223227065">
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584224657411" />
+    <state x="335" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1584264976012">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="335" y="314" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1584223227065" />
+    <state x="335" y="314" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1584264976012" />
     <state x="296" y="221" key="run.anything.popup" timestamp="1584215563103">
       <screen x="0" y="0" width="1280" height="984" />
     </state>

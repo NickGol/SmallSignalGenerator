@@ -12,19 +12,17 @@
     <properties>
         <!--project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>13</maven.compiler.source>
-        <maven.compiler.target>13</maven.compiler.target-->
-
-        <!-- Java -->
-        <java.version>13</java.version>
+        <maven.compiler.target>13</maven.compiler.target>
+        <java.version>13</java.version-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- Project name -->
         <project.name>SmallSignalGenerator</project.name>
         <!-- Compiler plugin -->
-        <compilerplugin.version>3.7.0</compilerplugin.version>
+        <compilerplugin.version>3.8.1</compilerplugin.version>
         <!-- JUnit -->
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13</junit.version>
     </properties>
 
     <dependencies>
@@ -69,8 +67,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${compilerplugin.version}</version>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <source>13</source>
+                    <target>13</target>
                 </configuration>
             </plugin>
 
