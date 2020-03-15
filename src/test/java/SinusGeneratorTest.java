@@ -23,6 +23,7 @@ public class SinusGeneratorTest {
 
     @Test
     public void checkGetterFunction_2() {
+        SinusGenerator sinusGenerator = new SinusGenerator(0);
         Float[] firstStep = sinusGenerator.getSignalData(25);
         assertEquals(25, 25);
     }

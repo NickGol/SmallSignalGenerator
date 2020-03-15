@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1383965-296e-430e-bb96-d48b0db52a07" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmallSignalGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SmallSignalGenerator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSinusGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SinusGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SinusGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SinusGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584224656060</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Change project structure&#10;First tests added to try with Travis CI&#10;Failed test situation">
+      <created>1584265133460</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1584265133460</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -354,10 +357,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="436" y="350" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.984@0.0.1280.984" timestamp="1584210499790" />
-    <state x="177" y="85" key="CommitChangelistDialog2" timestamp="1584224655635">
+    <state x="177" y="85" key="CommitChangelistDialog2" timestamp="1584265132483">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="177" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584224655635" />
+    <state x="177" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584265132483" />
     <state x="367" y="290" key="FileChooserDialogImpl" timestamp="1584201484387">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -406,10 +409,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="213" y="131" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584262801307" />
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584224657411">
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584265161150">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584224657411" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584265161150" />
     <state x="335" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1584264976012">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
