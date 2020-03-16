@@ -7,9 +7,9 @@ script:
 
 
 # Improve Build Speed https://dzone.com/articles/travis-ci-tutorial-java-projects
-cache:
-  directories:
-    - $HOME
+#cache:
+#directories:
+    #- $HOME
 
 # Notifications https://docs.travis-ci.com/user/notifications/
 notifications:
