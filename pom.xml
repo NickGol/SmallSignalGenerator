@@ -59,7 +59,14 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>11</version>
+            <version>14</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-fxml -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>14</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-archetype-simple -->
@@ -69,11 +76,11 @@
             <version>0.0.5</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-fxml -->
         <dependency>
             <groupId>org.openjfx</groupId>
-            <artifactId>javafx-fxml</artifactId>
-            <version>11</version>
+            <artifactId>javafx-maven-plugin</artifactId>
+            <version>0.0.4</version>
+            <type>maven-plugin</type>
         </dependency>
 
     </dependencies>
@@ -83,7 +90,7 @@
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
-                <version>0.0.3</version>
+                <version>0.0.4</version>
                 <configuration>
                     <mainClass>LineChartPackage.StockLineChartApp</mainClass>
                 </configuration>
