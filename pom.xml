@@ -16,7 +16,6 @@
         <java.version>13</java.version-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
         <!-- Project name -->
         <project.name>SmallSignalGenerator</project.name>
         <!-- Compiler plugin -->
@@ -26,12 +25,6 @@
     </properties>
 
     <dependencies>
-
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-controls</artifactId>
-            <version>11.0.2</version>
-        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.knowm.xchart/xchart -->
         <dependency>
@@ -108,7 +101,7 @@
             </plugin>
 
             <!-- Assembly plugin -->
-            <plugin>
+            <!--plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
                     <finalName>${project.name}</finalName>
@@ -131,7 +124,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin-->
         </plugins>
 
     </build>

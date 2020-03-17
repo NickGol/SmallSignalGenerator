@@ -37,25 +37,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/javafx-sdk-11.0.2!!!!!/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\SM\SmallSignalGenerator\src\main\resources\LineChart" />
+      <recent name="C:\IdeaProjects\SM\SmallSignalGenerator\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IdeaProjects\SM\SmallSignalGenerator\src" />
       <recent name="C:\IdeaProjects\SM\SmallSignalGenerator" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\IdeaProjects\SM\SmallSignalGenerator\src\main\resources\LineChart" />
-      <recent name="C:\IdeaProjects\SM\SmallSignalGenerator\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Application.StockLineChartApp">
@@ -64,6 +68,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="LineChartPackage.StockLineChartApp" />
       <module name="SmallSignalGenerator" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.LineChartPackage.*" />
@@ -389,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584348396102</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Without JavaFX SDK&#10;   First tests added to try with Travis CI&#10;   New script">
+      <created>1584349225142</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1584349225142</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -405,17 +417,18 @@
     <MESSAGE value="Change project structure&#10;First tests added to try with Travis CI" />
     <MESSAGE value="Change project structure&#10;First tests added to try with Travis CI&#10;New" />
     <MESSAGE value="Change project structure&#10;   First tests added to try with Travis CI&#10;   New script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change project structure&#10;   First tests added to try with Travis CI&#10;   New script" />
+    <MESSAGE value="Without JavaFX SDK&#10;   First tests added to try with Travis CI&#10;   New script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Without JavaFX SDK&#10;   First tests added to try with Travis CI&#10;   New script" />
   </component>
   <component name="WindowStateProjectService">
     <state x="232" y="149" key="#Project_Structure" timestamp="1584210491985">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="232" y="149" key="#Project_Structure/0.0.1280.984@0.0.1280.984" timestamp="1584210491985" />
-    <state x="155" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584348802973">
+    <state x="-68" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584431356770">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="155" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584348802973" />
+    <state x="-68" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584431356770" />
     <state x="481" y="255" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1584304667677">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -440,14 +453,14 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="436" y="350" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.984@0.0.1280.984" timestamp="1584210499790" />
-    <state x="177" y="85" key="CommitChangelistDialog2" timestamp="1584348395639">
+    <state x="177" y="85" key="CommitChangelistDialog2" timestamp="1584349224699">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="177" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584348395639" />
-    <state x="367" y="290" key="FileChooserDialogImpl" timestamp="1584305109754">
+    <state x="177" y="85" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584349224699" />
+    <state x="367" y="290" key="FileChooserDialogImpl" timestamp="1584360776780">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="367" y="290" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1584305109754" />
+    <state x="367" y="290" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1584360776780" />
     <state x="488" y="384" width="429" height="215" key="Github.ShareDialog" timestamp="1584040774844">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -456,54 +469,58 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="402" y="196" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1584040831399" />
-    <state width="1236" height="163" key="GridCell.Tab.0.bottom" timestamp="1584349093614">
+    <state width="1236" height="320" key="GridCell.Tab.0.bottom" timestamp="1584361047260">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584349093614" />
-    <state width="1236" height="163" key="GridCell.Tab.0.center" timestamp="1584349093614">
+    <state width="1236" height="320" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584361047260" />
+    <state width="1236" height="320" key="GridCell.Tab.0.center" timestamp="1584361047260">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584349093614" />
-    <state width="1236" height="163" key="GridCell.Tab.0.left" timestamp="1584349093614">
+    <state width="1236" height="320" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584361047260" />
+    <state width="1236" height="320" key="GridCell.Tab.0.left" timestamp="1584361047260">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584349093614" />
-    <state width="1236" height="163" key="GridCell.Tab.0.right" timestamp="1584349093614">
+    <state width="1236" height="320" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584361047260" />
+    <state width="1236" height="320" key="GridCell.Tab.0.right" timestamp="1584361047260">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584349093614" />
-    <state width="1236" height="320" key="GridCell.Tab.1.bottom" timestamp="1584305122316">
+    <state width="1236" height="320" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584361047260" />
+    <state width="1236" height="320" key="GridCell.Tab.1.bottom" timestamp="1584361047261">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584305122316" />
-    <state width="1236" height="320" key="GridCell.Tab.1.center" timestamp="1584305122316">
+    <state width="1236" height="320" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584361047261" />
+    <state width="1236" height="320" key="GridCell.Tab.1.center" timestamp="1584361047260">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1584305122316" />
-    <state width="1236" height="320" key="GridCell.Tab.1.left" timestamp="1584305122316">
+    <state width="1236" height="320" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1584361047260" />
+    <state width="1236" height="320" key="GridCell.Tab.1.left" timestamp="1584361047260">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1584305122316" />
-    <state width="1236" height="320" key="GridCell.Tab.1.right" timestamp="1584305122316">
+    <state width="1236" height="320" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1584361047260" />
+    <state width="1236" height="320" key="GridCell.Tab.1.right" timestamp="1584361047261">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1236" height="320" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1584305122316" />
+    <state width="1236" height="320" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1584361047261" />
     <state x="305" y="190" key="NewModule_or_Project.wizard" timestamp="1584305120585">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="305" y="190" key="NewModule_or_Project.wizard/0.0.1280.984@0.0.1280.984" timestamp="1584305120585" />
-    <state x="213" y="131" key="SettingsEditor" timestamp="1584262801307">
+    <state x="213" y="131" key="SettingsEditor" timestamp="1584360850295">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="213" y="131" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584262801307" />
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584348397215">
+    <state x="213" y="131" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1584360850295" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1584349226614">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584348397215" />
-    <state x="335" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1584346662722">
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584349226614" />
+    <state x="335" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1584388609414">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="335" y="314" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1584346662722" />
+    <state x="335" y="314" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1584388609414" />
+    <state x="437" y="450" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584360627425">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="437" y="450" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.984@0.0.1280.984" timestamp="1584360627425" />
     <state x="296" y="221" key="run.anything.popup" timestamp="1584215563103">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
