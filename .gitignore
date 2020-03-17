@@ -7,8 +7,10 @@
 *.jar
 
 # folders
-.idea/*
-target/*
+/.idea/*
+/target/*
+/out/
 
 # files
 *.iml
+
