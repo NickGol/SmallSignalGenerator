@@ -21,7 +21,7 @@
         <!-- Compiler plugin -->
         <compilerplugin.version>3.8.1</compilerplugin.version>
         <!-- JUnit -->
-        <junit.version>4.13</junit.version>
+        <junit.version>4.13.1</junit.version>
     </properties>
 
     <dependencies>
